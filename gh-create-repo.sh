@@ -9,7 +9,7 @@ fi
 # Remove repository if it exists.
 gh repo delete --yes workshop-github
 
-# Remove upstream if it exists.
+# Sterge curgerea de sus daca exista
 git remote rm upstream
 
 # Create GitHub repository from local clone.
